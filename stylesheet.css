@@ -1,0 +1,60 @@
+/* star(*) applies to everything in the webpage*/
+
+* {
+    margin: 0;
+}
+
+/* everything in the html*/
+html {
+    height: 100vh;
+}
+
+body {
+    box-sizing: border-box;
+    padding-top: 100px;
+    height: 100%;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* navbar as a whole */
+/* NAVBAR */
+.wrapper-home{
+    background-color: #aeb5ad;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+.wrapper-home ul {
+    list-style: none;
+    position: fixed;
+    top: 0;
+}
+.wrapper-home ul li {
+    list-style: none;
+    float: left;
+    line-height: normal;
+}
+.wrapper-home ul li a{
+    text-decoration: none;
+    color: #346151;
+    font-weight: 600;
+    font-size:20px;
+    dispay: inline-block;
+    padding: 15px;   /*spacing between the words*/
+}
+.wrapper-home ul li a:hover {color: white;}
+
+img{
+    height: 200px;
+}
